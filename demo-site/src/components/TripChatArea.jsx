@@ -187,9 +187,9 @@ function UserMessage({ msg, showHeader }) {
 
 // ── main component ────────────────────────────────────────────────────────────
 export default function TripChatArea({ trip, messages = [], steps = [], members = [] }) {
-  const [activeTab, setActiveTab] = useState('steps')
+  const [activeTab, setActiveTab] = useState('plan')
   const [tripPlan, setTripPlan] = useState(null)
-  const [panelExpanded, setPanelExpanded] = useState(false)
+  const [panelExpanded, setPanelExpanded] = useState(true)
   const bottomRef = useRef(null)
 
   // Extract latest structured plan from messages
@@ -256,9 +256,7 @@ export default function TripChatArea({ trip, messages = [], steps = [], members 
                 {initial(m.email, m.name)}
               </div>
             ))}
-            <div className="w-7 h-7 rounded-full bg-white border-2 border-[var(--bg-header)] flex items-center justify-center overflow-hidden" title="Raahi AI">
-              <Logo size={22} />
-            </div>
+            <Logo size={28} className="border-2 border-[var(--bg-header)] rounded-full" title="Raahi AI" />
           </div>
         </div>
 
