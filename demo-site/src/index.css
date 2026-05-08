@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-base:    #212121;
+  --bg-sidebar: #171717;
+  --bg-chat:    #1a1a1a;
+  --bg-header:  #1f1f1f;
+  --bg-card:    #27272a;
+  --bg-input:   #18181b;
+  --bg-active:  #3f3f46;
+
+  --text-primary:   #f4f4f5;
+  --text-secondary: #d4d4d8;
+  --text-muted:     #71717a;
+  --text-faint:     #52525b;
+
+  --border:       #27272a;
+  --border-light: #3f3f46;
+
+  color-scheme: dark;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-active) transparent;
+}

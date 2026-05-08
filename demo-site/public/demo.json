@@ -1,0 +1,337 @@
+{
+  "trip": {
+    "id": 28,
+    "name": "America, USA"
+  },
+  "messages": [
+    {
+      "id": 393,
+      "user_email": "prena.lalwani@koderlabs.com",
+      "user_name": "Prena Lalwani",
+      "content": "holaaaa",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:54:34.793763+00:00"
+    },
+    {
+      "id": 394,
+      "user_email": "prena.lalwani@koderlabs.com",
+      "user_name": "Prena Lalwani",
+      "content": "lets plan a trip to USA",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:54:43.964011+00:00"
+    },
+    {
+      "id": 395,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "USA it is! 🇺🇸 So what kind of trip are we thinking?\nChill vacation, adventure, family trip vibes? Prenala, your thoughts? 👀",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:54:50.109321+00:00"
+    },
+    {
+      "id": 396,
+      "user_email": "prena.lalwani@koderlabs.com",
+      "user_name": "Prena Lalwani",
+      "content": "texas trip, but kinda friends coded",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:55:08.714411+00:00"
+    },
+    {
+      "id": 397,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "Texas with the friends, got it! What kind of vibe are we going for?\n@prenalalwani556, your thoughts here?",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:55:17.199681+00:00"
+    },
+    {
+      "id": 398,
+      "user_email": "prena.lalwani@koderlabs.com",
+      "user_name": "Prena Lalwani",
+      "content": "chill vibe but we are broke",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:55:54.015323+00:00"
+    },
+    {
+      "id": 399,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "Okay, economy budget and chill vibes locked in 😂\nSo what kind of trip are we thinking? Friends, family, solo, couple?\n@prenalalwani556, your vote matters here 👀",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:56:00.626570+00:00"
+    },
+    {
+      "id": 400,
+      "user_email": "prena.lalwani@koderlabs.com",
+      "user_name": "Prena Lalwani",
+      "content": "friends trip",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:56:21.872015+00:00"
+    },
+    {
+      "id": 401,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "Okay, intercity trip, got it! 🚗\nSo how many people are we planning this for? @prenalalwani556 what's your take?",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:56:28.764847+00:00"
+    },
+    {
+      "id": 402,
+      "user_email": "prena.lalwani@koderlabs.com",
+      "user_name": "Prena Lalwani",
+      "content": "its just her and i",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:56:44.468169+00:00"
+    },
+    {
+      "id": 403,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "Got it, just the two of you!\nHow long are we thinking for this trip? @prenalalwani556 your call matters here 😄",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:56:49.754602+00:00"
+    },
+    {
+      "id": 404,
+      "user_email": "prena.lalwani@koderlabs.com",
+      "user_name": "Prena Lalwani",
+      "content": "week trip would be enough",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:57:06.216724+00:00"
+    },
+    {
+      "id": 405,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "Got it, 7 days is locked in!\nWhen are we thinking of going for this trip? @prenalalwani556 your call here too 😄",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:57:12.471692+00:00"
+    },
+    {
+      "id": 406,
+      "user_email": "prena.lalwani@koderlabs.com",
+      "user_name": "Prena Lalwani",
+      "content": "han, prena whats your call in that",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:57:36.155739+00:00"
+    },
+    {
+      "id": 407,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "What dates are we thinking for this trip? Prenal, what dates are you leaning towards?",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:57:45.366681+00:00"
+    },
+    {
+      "id": 408,
+      "user_email": "prenalalwani556@gmail.com",
+      "user_name": "prenalalwani556@gmail.com",
+      "content": "after eid maybe",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:58:09.654508+00:00"
+    },
+    {
+      "id": 409,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "Got it, after Eid works! 🌙\nNow, where are we thinking of crashing? Hotels, hostels, or something else?",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:58:14.196025+00:00"
+    },
+    {
+      "id": 410,
+      "user_email": "prenalalwani556@gmail.com",
+      "user_name": "prenalalwani556@gmail.com",
+      "content": "broke so hostelsss",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:58:27.949944+00:00"
+    },
+    {
+      "id": 411,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "Hostels it is! We'll make those dollars stretch 😂\nWhat kind of activities are we thinking for our broke but ballin' trip?",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:58:32.374940+00:00"
+    },
+    {
+      "id": 412,
+      "user_email": "prena.lalwani@koderlabs.com",
+      "user_name": "Prena Lalwani",
+      "content": "as it is texas i will try bull ridee and cow boy activitesssss",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:58:54.817306+00:00"
+    },
+    {
+      "id": 413,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "Yesss, cowboy activities and bull riding it is! 🤠\nLove that energy! How are we getting around Texas?",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:58:59.046672+00:00"
+    },
+    {
+      "id": 414,
+      "user_email": "prenalalwani556@gmail.com",
+      "user_name": "prenalalwani556@gmail.com",
+      "content": "flightssss",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:59:14.760197+00:00"
+    },
+    {
+      "id": 415,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "FLIGHTS IT IS! ✈️ Okay, where are we taking this adventure though?? 🔥",
+      "is_agent": true,
+      "timestamp": "2026-05-07T13:59:21.481736+00:00"
+    },
+    {
+      "id": 416,
+      "user_email": "prenalalwani556@gmail.com",
+      "user_name": "prenalalwani556@gmail.com",
+      "content": "texasss here we come",
+      "is_agent": false,
+      "timestamp": "2026-05-07T13:59:44.832990+00:00"
+    },
+    {
+      "id": 417,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "{\"destination\": \"Texas, USA\", \"duration\": \"7 days\", \"travelers\": \"2 people\", \"budget\": \"economy\", \"plans\": [{\"genre\": \"Photography & Scenic\", \"icon\": \"🏞️\", \"title\": \"Hill Country Charm & Scenic Drives\", \"tagline\": \"Discover quaint towns, rolling vineyards, and refreshing swimming holes at a leisurely pace.\", \"vibe\": \"picturesque, tranquil, leisurely, refreshing\", \"budget\": \"$1,200–$1,800 per person\", \"places\": [\"Fredericksburg\", \"Wimberley\", \"Johnson City\", \"Pedernales Falls State Park\"], \"activities\": [\"Wine tasting at local vineyards\", \"Stroll and shop along Fredericksburg's Main Street\", \"Swim at Jacob's Well Natural Area or Blue Hole Regional Park\", \"Explore the Lyndon B. Johnson National Historical Park\", \"Enjoy scenic drives through the Texas Wine Country\"], \"image\": \"https://images.pexels.com/photos/33510101/pexels-photo-33510101.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200\"}, {\"genre\": \"Beach & Relaxation\", \"icon\": \"🏖️\", \"title\": \"Coastal Bend Chill-out & Nature\", \"tagline\": \"Unwind on sandy beaches, observe coastal wildlife, and enjoy fresh seafood by the Gulf.\", \"vibe\": \"salty, breezy, serene, natural\", \"budget\": \"$1,100–$1,700 per person\", \"places\": [\"Port Aransas\", \"Mustang Island State Park\", \"Rockport\", \"Padre Island National Seashore\"], \"activities\": [\"Beachcombing and relaxing on Mustang Island\", \"Birdwatching at Aransas National Wildlife Refuge\", \"Pier fishing in Port Aransas\", \"Exploring the Rockport Art Center and waterfront\", \"Visiting the Padre Island National Seashore for unspoiled nature\"], \"image\": \"https://images.pexels.com/photos/32190138/pexels-photo-32190138.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200\"}, {\"genre\": \"Culture & History\", \"icon\": \"🏛️\", \"title\": \"Central Texas Leisure & Local Flavors\", \"tagline\": \"Experience the laid-back charm of Austin and San Antonio, blending history with chill vibes.\", \"vibe\": \"urban-leisure, cultural, flavorful, artistic\", \"budget\": \"$1,300–$1,900 per person\", \"places\": [\"San Antonio River Walk\", \"The Alamo\", \"South Congress Avenue (Austin)\", \"Zilker Park (Austin)\", \"Barton Springs Pool (Austin)\"], \"activities\": [\"Leisurely stroll or boat tour along the San Antonio River Walk\", \"Explore the historic Missions of San Antonio\", \"Window shop and admire street art on Austin's South Congress\", \"Relax and picnic at Zilker Park\", \"Swim in the refreshing natural waters of Barton Springs Pool\", \"Enjoy food truck park dining in Austin\"], \"image\": \"https://images.pexels.com/photos/19421861/pexels-photo-19421861.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200\"}]}",
+      "is_agent": true,
+      "timestamp": "2026-05-07T14:00:02.632978+00:00"
+    },
+    {
+      "id": 418,
+      "user_email": "prenalalwani556@gmail.com",
+      "user_name": "prenalalwani556@gmail.com",
+      "content": "@agent I want the \"Photography & Scenic\" experience for Texas, USA. Duration: 7 days. Travelers: 2 people. Budget: economy. Please give me the full detailed day-by-day itinerary, best places to stay, food recommendations, and practical tips for this style.",
+      "is_agent": false,
+      "timestamp": "2026-05-07T14:00:35.040251+00:00"
+    },
+    {
+      "id": 419,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "{\"trip_title\": \"Texas Trails: Cowboys, Culture & Captures\", \"trip_theme\": \"Photography\", \"destination\": \"Texas, USA\", \"dates\": \"July 01 - 07, 2024\", \"travelers\": 2, \"budget_per_person\": 955, \"total_budget\": 1910, \"hero_image_query\": \"Texas longhorns Fort Worth Stockyards\", \"days\": [{\"day_number\": 1, \"summary\": \"Fort Worth arrival · Sundance Square stroll · Trinity Trails views\", \"places\": [\"Dallas/Fort Worth International Airport (DFW)\", \"Sundance Square\", \"Trinity Trails\"], \"activities\": [\"Arrive at DFW and transfer to Fort Worth accommodation\", \"Stroll through Sundance Square and capture street photography\", \"Walk along Trinity Trails for scenic river views and golden hour photos\"], \"budget_breakdown\": {\"transport\": 20, \"food\": 90, \"activities\": 50, \"accommodation\": 90, \"total\": 250}}, {\"day_number\": 2, \"summary\": \"Fort Worth museums · Bus to Austin · Austin live music\", \"places\": [\"Kimbell Art Museum\", \"Amon Carter Museum of American Art\", \"6th Street\", \"Rainey Street Historic District\", \"Austin food truck parks\"], \"activities\": [\"Visit the Kimbell Art Museum or Amon Carter Museum of American Art\", \"Travel by bus from Fort Worth to Austin\", \"Explore Austin's legendary live music scene on 6th or Rainey Street\", \"Enjoy dinner at one of Austin's renowned food truck parks\"], \"budget_breakdown\": {\"transport\": 100, \"food\": 90, \"activities\": 50, \"accommodation\": 90, \"total\": 330}}, {\"day_number\": 3, \"summary\": \"Stockyards cattle drive · Mechanical bull fun · Cowtown Coliseum rodeo\", \"places\": [\"Fort Worth Stockyards National Historic District\", \"Stockyards Museum\", \"Cowtown Coliseum\", \"Cooper's Old Time Pit Bar-B-Que\"], \"activities\": [\"Witness the iconic cattle drive and capture longhorn photos\", \"Explore Western shops, visit the Stockyards Museum, and try a mechanical bull\", \"Experience a thrilling rodeo or bull riding event\", \"Savor classic Texas BBQ for dinner\"], \"budget_breakdown\": {\"transport\": 20, \"food\": 90, \"activities\": 50, \"accommodation\": 90, \"total\": 250}}, {\"day_number\": 4, \"summary\": \"Barton Springs Pool · Texas State Capitol · Congress Avenue bats\", \"places\": [\"Barton Springs Pool\", \"Texas State Capitol Building\", \"Congress Avenue\", \"Congress Avenue Bridge\", \"Mount Bonnell\"], \"activities\": [\"Swim or relax at Barton Springs Pool and take scenic photos\", \"Take a free tour of the magnificent Texas State Capitol Building\", \"Witness the spectacular flight of millions of bats from Congress Avenue Bridge\", \"Enjoy panoramic city views from Mount Bonnell\"], \"budget_breakdown\": {\"transport\": 20, \"food\": 90, \"activities\": 50, \"accommodation\": 90, \"total\": 250}}, {\"day_number\": 5, \"summary\": \"South Congress Avenue · Bus to San Antonio · Riverwalk stroll\", \"places\": [\"South Congress Avenue (SoCo)\", \"\\\"I Love You So Much\\\" mural\", \"San Antonio Riverwalk (Paseo del Río)\"], \"activities\": [\"Explore SoCo's eclectic boutiques, vintage shops, and colorful murals\", \"Capture photos at the iconic \\\"I Love You So Much\\\" mural\", \"Travel by bus from Austin to San Antonio\", \"Enjoy a leisurely stroll along the famous Riverwalk and have dinner\"], \"budget_breakdown\": {\"transport\": 100, \"food\": 90, \"activities\": 50, \"accommodation\": 90, \"total\": 330}}, {\"day_number\": 6, \"summary\": \"The Alamo history · San Antonio Missions · Tex-Mex farewell\", \"places\": [\"The Alamo\", \"San Antonio Missions National Historical Park\", \"Mission San José\", \"Mission Concepción\"], \"activities\": [\"Explore the historic grounds of The Alamo\", \"Visit Mission San José and Mission Concepción, a UNESCO World Heritage Site\", \"Rent bikes or use VIA bus to travel between missions for scenic photography\", \"Enjoy a farewell Tex-Mex dinner with potential mariachi music\"], \"budget_breakdown\": {\"transport\": 20, \"food\": 90, \"activities\": 50, \"accommodation\": 90, \"total\": 250}}, {\"day_number\": 7, \"summary\": \"Market Square souvenirs · Final Texan breakfast · Departure\", \"places\": [\"Market Square (El Mercado)\", \"San Antonio International Airport (SAT)\"], \"activities\": [\"Enjoy a final Texan breakfast\", \"Shop for souvenirs at Market Square, the largest Mexican market outside Mexico\", \"Capture vibrant final photos at El Mercado\", \"Depart from San Antonio International Airport\"], \"budget_breakdown\": {\"transport\": 20, \"food\": 90, \"activities\": 50, \"accommodation\": 90, \"total\": 250}}], \"hero_image\": \"https://images.pexels.com/photos/12578420/pexels-photo-12578420.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200\"}",
+      "is_agent": true,
+      "timestamp": "2026-05-07T14:02:05.976552+00:00"
+    },
+    {
+      "id": 420,
+      "user_email": "prenalalwani556@gmail.com",
+      "user_name": "prenalalwani556@gmail.com",
+      "content": "can we swap D2 -> D3 and D3 to D2",
+      "is_agent": false,
+      "timestamp": "2026-05-07T14:03:06.788858+00:00"
+    },
+    {
+      "id": 421,
+      "user_email": "agent",
+      "user_name": null,
+      "content": "Done! Swapped Day 2 and Day 3 for you 🔄 itinerary's updated.\nAnything else you want to shuffle around?",
+      "is_agent": true,
+      "timestamp": "2026-05-07T14:03:11.319701+00:00"
+    },
+    {
+      "id": 422,
+      "user_email": "prenalalwani556@gmail.com",
+      "user_name": "prenalalwani556@gmail.com",
+      "content": "naa, thanks",
+      "is_agent": false,
+      "timestamp": "2026-05-07T14:03:24.995808+00:00"
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "step_name": "destination",
+      "value": "Texas",
+      "status": "confirmed",
+      "description": "User specified 'texas trip'"
+    },
+    {
+      "step_number": 2,
+      "step_name": "trip_type",
+      "value": "intercity",
+      "status": "confirmed",
+      "description": "Destination is Texas, USA, implying an intercity trip within the USA."
+    },
+    {
+      "step_number": 3,
+      "step_name": "group_size",
+      "value": "2",
+      "status": "confirmed",
+      "description": "User explicitly stated 'its just her and i'"
+    },
+    {
+      "step_number": 4,
+      "step_name": "group_type",
+      "value": "friends",
+      "status": "confirmed",
+      "description": "User said 'friends coded'"
+    },
+    {
+      "step_number": 5,
+      "step_name": "duration",
+      "value": "7 days",
+      "status": "confirmed",
+      "description": "User explicitly stated 'week trip would be enough'"
+    },
+    {
+      "step_number": 6,
+      "step_name": "travel_dates",
+      "value": "after Eid",
+      "status": "confirmed",
+      "description": "User explicitly stated 'after eid maybe' for travel dates."
+    },
+    {
+      "step_number": 7,
+      "step_name": "budget",
+      "value": "economy",
+      "status": "confirmed",
+      "description": "User explicitly stated 'we are broke'"
+    },
+    {
+      "step_number": 8,
+      "step_name": "accommodation",
+      "value": "hostel",
+      "status": "confirmed",
+      "description": "User explicitly stated 'broke so hostelsss'"
+    },
+    {
+      "step_number": 9,
+      "step_name": "travel_style",
+      "value": "relaxed",
+      "status": "confirmed",
+      "description": "User explicitly stated 'chill vibe'"
+    },
+    {
+      "step_number": 10,
+      "step_name": "activities",
+      "value": "bull riding, cowboy activities",
+      "status": "confirmed",
+      "description": "User explicitly mentioned 'bull ridee and cow boy activitesssss'"
+    },
+    {
+      "step_number": 11,
+      "step_name": "transport",
+      "value": "flights",
+      "status": "confirmed",
+      "description": "User explicitly stated 'flightssss' for transport."
+    }
+  ],
+  "members": [
+    {
+      "email": "prena.lalwani@koderlabs.com",
+      "name": "Prena Lalwani"
+    },
+    {
+      "email": "prenalalwani556@gmail.com",
+      "name": null
+    }
+  ]
+}
