@@ -103,8 +103,8 @@ function AgentMessage({ msg, showHeader, onViewPlan }) {
   const parsed = parseMsgContent(msg.content)
 
   const avatar = (
-    <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center flex-shrink-0 shadow-md overflow-hidden">
-      <Logo size={26} />
+    <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden">
+      <Logo size={32} />
     </div>
   )
   const placeholder = <div className="w-8 flex-shrink-0" />
