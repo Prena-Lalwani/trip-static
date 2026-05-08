@@ -6,16 +6,16 @@
   "messages": [
     {
       "id": 393,
-      "user_email": "prena.lalwani@koderlabs.com",
-      "user_name": "Prena Lalwani",
+      "user_email": "Benedictbridgerton@gmail.com",
+      "user_name": "Benedict Bridgerton",
       "content": "holaaaa",
       "is_agent": false,
       "timestamp": "2026-05-07T13:54:34.793763+00:00"
     },
     {
       "id": 394,
-      "user_email": "prena.lalwani@koderlabs.com",
-      "user_name": "Prena Lalwani",
+      "user_email": "Benedictbridgerton@gmail.com",
+      "user_name": "Benedict Bridgerton",
       "content": "lets plan a trip to USA",
       "is_agent": false,
       "timestamp": "2026-05-07T13:54:43.964011+00:00"
@@ -24,14 +24,14 @@
       "id": 395,
       "user_email": "agent",
       "user_name": null,
-      "content": "USA it is! 🇺🇸 So what kind of trip are we thinking?\nChill vacation, adventure, family trip vibes? Prenala, your thoughts? 👀",
+      "content": "USA it is! 🇺🇸 So what kind of trip are we thinking?\nChill vacation, adventure, family trip vibes? sophie, your thoughts? 👀",
       "is_agent": true,
       "timestamp": "2026-05-07T13:54:50.109321+00:00"
     },
     {
       "id": 396,
-      "user_email": "prena.lalwani@koderlabs.com",
-      "user_name": "Prena Lalwani",
+      "user_email": "Benedictbridgerton@gmail.com",
+      "user_name": "Benedict Bridgerton",
       "content": "texas trip, but kinda friends coded",
       "is_agent": false,
       "timestamp": "2026-05-07T13:55:08.714411+00:00"
@@ -40,14 +40,14 @@
       "id": 397,
       "user_email": "agent",
       "user_name": null,
-      "content": "Texas with the friends, got it! What kind of vibe are we going for?\n@prenalalwani556, your thoughts here?",
+      "content": "Texas with the friends, got it! What kind of vibe are we going for?\nsophie, your thoughts here?",
       "is_agent": true,
       "timestamp": "2026-05-07T13:55:17.199681+00:00"
     },
     {
       "id": 398,
-      "user_email": "prena.lalwani@koderlabs.com",
-      "user_name": "Prena Lalwani",
+      "user_email": "Benedictbridgerton@gmail.com",
+      "user_name": "Benedict Bridgerton",
       "content": "chill vibe but we are broke",
       "is_agent": false,
       "timestamp": "2026-05-07T13:55:54.015323+00:00"
@@ -56,14 +56,14 @@
       "id": 399,
       "user_email": "agent",
       "user_name": null,
-      "content": "Okay, economy budget and chill vibes locked in 😂\nSo what kind of trip are we thinking? Friends, family, solo, couple?\n@prenalalwani556, your vote matters here 👀",
+      "content": "Okay, economy budget and chill vibes locked in 😂\nSo what kind of trip are we thinking? Friends, family, solo, couple?\nsophie, your vote matters here 👀",
       "is_agent": true,
       "timestamp": "2026-05-07T13:56:00.626570+00:00"
     },
     {
       "id": 400,
-      "user_email": "prena.lalwani@koderlabs.com",
-      "user_name": "Prena Lalwani",
+      "user_email": "Benedictbridgerton@gmail.com",
+      "user_name": "Benedict Bridgerton",
       "content": "friends trip",
       "is_agent": false,
       "timestamp": "2026-05-07T13:56:21.872015+00:00"
@@ -72,14 +72,14 @@
       "id": 401,
       "user_email": "agent",
       "user_name": null,
-      "content": "Okay, intercity trip, got it! 🚗\nSo how many people are we planning this for? @prenalalwani556 what's your take?",
+      "content": "Okay, intercity trip, got it! 🚗\nSo how many people are we planning this for? sophie, what's your take?",
       "is_agent": true,
       "timestamp": "2026-05-07T13:56:28.764847+00:00"
     },
     {
       "id": 402,
-      "user_email": "prena.lalwani@koderlabs.com",
-      "user_name": "Prena Lalwani",
+      "user_email": "Benedictbridgerton@gmail.com",
+      "user_name": "Benedict Bridgerton",
       "content": "its just her and i",
       "is_agent": false,
       "timestamp": "2026-05-07T13:56:44.468169+00:00"
@@ -88,14 +88,14 @@
       "id": 403,
       "user_email": "agent",
       "user_name": null,
-      "content": "Got it, just the two of you!\nHow long are we thinking for this trip? @prenalalwani556 your call matters here 😄",
+      "content": "Got it, just the two of you!\nHow long are we thinking for this trip? sophie, your call matters here 😄",
       "is_agent": true,
       "timestamp": "2026-05-07T13:56:49.754602+00:00"
     },
     {
       "id": 404,
-      "user_email": "prena.lalwani@koderlabs.com",
-      "user_name": "Prena Lalwani",
+      "user_email": "Benedictbridgerton@gmail.com",
+      "user_name": "Benedict Bridgerton",
       "content": "week trip would be enough",
       "is_agent": false,
       "timestamp": "2026-05-07T13:57:06.216724+00:00"
@@ -104,15 +104,15 @@
       "id": 405,
       "user_email": "agent",
       "user_name": null,
-      "content": "Got it, 7 days is locked in!\nWhen are we thinking of going for this trip? @prenalalwani556 your call here too 😄",
+      "content": "Got it, 7 days is locked in!\nWhen are we thinking of going for this trip? sophie, your call here too 😄",
       "is_agent": true,
       "timestamp": "2026-05-07T13:57:12.471692+00:00"
     },
     {
       "id": 406,
-      "user_email": "prena.lalwani@koderlabs.com",
-      "user_name": "Prena Lalwani",
-      "content": "han, prena whats your call in that",
+      "user_email": "Benedictbridgerton@gmail.com",
+      "user_name": "Benedict Bridgerton",
+      "content": "han, benedict whats your call in that",
       "is_agent": false,
       "timestamp": "2026-05-07T13:57:36.155739+00:00"
     },
@@ -120,14 +120,14 @@
       "id": 407,
       "user_email": "agent",
       "user_name": null,
-      "content": "What dates are we thinking for this trip? Prenal, what dates are you leaning towards?",
+      "content": "What dates are we thinking for this trip? Benedict, what dates are you leaning towards?",
       "is_agent": true,
       "timestamp": "2026-05-07T13:57:45.366681+00:00"
     },
     {
       "id": 408,
-      "user_email": "prenalalwani556@gmail.com",
-      "user_name": "prenalalwani556@gmail.com",
+      "user_email": "sophieturner@gmail.com",
+      "user_name": "Sophie Turner",
       "content": "after eid maybe",
       "is_agent": false,
       "timestamp": "2026-05-07T13:58:09.654508+00:00"
@@ -142,8 +142,8 @@
     },
     {
       "id": 410,
-      "user_email": "prenalalwani556@gmail.com",
-      "user_name": "prenalalwani556@gmail.com",
+      "user_email": "sophieturner@gmail.com",
+      "user_name": "Sophie Turner",
       "content": "broke so hostelsss",
       "is_agent": false,
       "timestamp": "2026-05-07T13:58:27.949944+00:00"
@@ -158,8 +158,8 @@
     },
     {
       "id": 412,
-      "user_email": "prena.lalwani@koderlabs.com",
-      "user_name": "Prena Lalwani",
+      "user_email": "Benedictbridgerton@gmail.com",
+      "user_name": "Benedict Bridgerton",
       "content": "as it is texas i will try bull ridee and cow boy activitesssss",
       "is_agent": false,
       "timestamp": "2026-05-07T13:58:54.817306+00:00"
@@ -174,8 +174,8 @@
     },
     {
       "id": 414,
-      "user_email": "prenalalwani556@gmail.com",
-      "user_name": "prenalalwani556@gmail.com",
+      "user_email": "sophieturner@gmail.com",
+      "user_name": "Sophie Turner",
       "content": "flightssss",
       "is_agent": false,
       "timestamp": "2026-05-07T13:59:14.760197+00:00"
@@ -190,8 +190,8 @@
     },
     {
       "id": 416,
-      "user_email": "prenalalwani556@gmail.com",
-      "user_name": "prenalalwani556@gmail.com",
+      "user_email": "sophieturner@gmail.com",
+      "user_name": "Sophie Turner",
       "content": "texasss here we come",
       "is_agent": false,
       "timestamp": "2026-05-07T13:59:44.832990+00:00"
@@ -206,8 +206,8 @@
     },
     {
       "id": 418,
-      "user_email": "prenalalwani556@gmail.com",
-      "user_name": "prenalalwani556@gmail.com",
+      "user_email": "sophieturner@gmail.com",
+      "user_name": "Sophie Turner",
       "content": "@agent I want the \"Photography & Scenic\" experience for Texas, USA. Duration: 7 days. Travelers: 2 people. Budget: economy. Please give me the full detailed day-by-day itinerary, best places to stay, food recommendations, and practical tips for this style.",
       "is_agent": false,
       "timestamp": "2026-05-07T14:00:35.040251+00:00"
@@ -222,8 +222,8 @@
     },
     {
       "id": 420,
-      "user_email": "prenalalwani556@gmail.com",
-      "user_name": "prenalalwani556@gmail.com",
+      "user_email": "sophieturner@gmail.com",
+      "user_name": "Sophie Turner",
       "content": "can we swap D2 -> D3 and D3 to D2",
       "is_agent": false,
       "timestamp": "2026-05-07T14:03:06.788858+00:00"
@@ -238,8 +238,8 @@
     },
     {
       "id": 422,
-      "user_email": "prenalalwani556@gmail.com",
-      "user_name": "prenalalwani556@gmail.com",
+      "user_email": "sophieturner@gmail.com",
+      "user_name": "Sophie Turner",
       "content": "naa, thanks",
       "is_agent": false,
       "timestamp": "2026-05-07T14:03:24.995808+00:00"
@@ -326,12 +326,12 @@
   ],
   "members": [
     {
-      "email": "prena.lalwani@koderlabs.com",
-      "name": "Prena Lalwani"
+      "email": "Benedictbridgerton@gmail.com",
+      "name": "Benedict Bridgerton"
     },
     {
-      "email": "prenalalwani556@gmail.com",
-      "name": null
+      "email": "sophieturner@gmail.com",
+      "name": "Sophie Turner"
     }
   ]
 }

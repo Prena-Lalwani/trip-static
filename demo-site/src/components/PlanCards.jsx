@@ -91,7 +91,7 @@ function PlanCard({ plan, index }) {
         {/* Pick button disabled in demo */}
         <button
           disabled
-          className="w-full mt-1 py-2 rounded-xl text-white/50 text-xs font-semibold bg-zinc-700 cursor-not-allowed"
+          className="w-full mt-1 py-2 rounded-xl text-[var(--text-faint)] text-xs font-semibold bg-[var(--bg-active)] cursor-not-allowed"
           title="Pick disabled in demo"
         >
           Pick this →

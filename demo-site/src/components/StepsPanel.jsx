@@ -29,7 +29,7 @@ function StepIcon({ status }) {
       </div>
     )
   }
-  return <div className="w-5 h-5 rounded-full border-2 border-zinc-600 flex-shrink-0" />
+  return <div className="w-5 h-5 rounded-full border-2 border-[var(--border-light)] flex-shrink-0" />
 }
 
 function StatusBadge({ status }) {
@@ -48,7 +48,7 @@ function StatusBadge({ status }) {
     )
   }
   return (
-    <span className="bg-zinc-700/40 text-zinc-500 text-[10px] px-1.5 py-0.5 rounded-full">
+    <span className="bg-[var(--bg-card)] text-[var(--text-faint)] text-[10px] px-1.5 py-0.5 rounded-full">
       PENDING
     </span>
   )
@@ -60,14 +60,14 @@ export default function StepsPanel({ steps = [] }) {
   const percent = Math.round((confirmed / total) * 100)
 
   return (
-    <div className="flex flex-col h-full bg-zinc-950">
+    <div className="flex flex-col h-full" style={{ background: 'var(--bg-sidebar)' }}>
       {/* Header */}
-      <div className="px-4 py-3 border-b border-zinc-800 flex-shrink-0">
+      <div className="px-4 py-3 border-b border-[var(--border)] flex-shrink-0">
         <div className="flex items-center justify-between mb-2">
-          <span className="text-xs text-zinc-400">{confirmed} / {total} steps confirmed</span>
-          <span className="text-xs text-zinc-400">{percent}%</span>
+          <span className="text-xs text-[var(--text-muted)]">{confirmed} / {total} steps confirmed</span>
+          <span className="text-xs text-[var(--text-muted)]">{percent}%</span>
         </div>
-        <div className="w-full h-1 bg-zinc-800 rounded-full">
+        <div className="w-full h-1 bg-[var(--bg-active)] rounded-full">
           <div className="bg-green-500 h-1 rounded-full transition-all" style={{ width: `${percent}%` }} />
         </div>
       </div>
@@ -80,18 +80,18 @@ export default function StepsPanel({ steps = [] }) {
             const hasValue = step.value && (step.status === 'confirmed' || step.status === 'interpreted')
 
             return (
-              <div key={step.step_number} className="flex items-start gap-3 px-4 py-3 border-b border-zinc-800/50 last:border-0">
+              <div key={step.step_number} className="flex items-start gap-3 px-4 py-3 border-b border-[var(--border)] last:border-0">
                 <div className="mt-0.5">
                   <StepIcon status={step.status} />
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center justify-between gap-2">
-                    <span className="text-sm font-bold text-white truncate">{meta.name}</span>
+                    <span className="text-sm font-bold text-[var(--text-primary)] truncate">{meta.name}</span>
                     <StatusBadge status={step.status} />
                   </div>
-                  <p className="text-xs text-zinc-500 mt-0.5">{meta.subtitle}</p>
+                  <p className="text-xs text-[var(--text-faint)] mt-0.5">{meta.subtitle}</p>
                   {hasValue && (
-                    <p className="text-xs text-zinc-300 mt-1 break-words">{step.value}</p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1 break-words">{step.value}</p>
                   )}
                   {step.status === 'interpreted' && (
                     <button

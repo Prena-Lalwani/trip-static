@@ -4,6 +4,7 @@ import remarkGfm from 'remark-gfm'
 import StepsPanel from './StepsPanel'
 import TripPlanPanel from './TripPlanPanel'
 import PlanCards from './PlanCards'
+import Logo from './Logo'
 
 // ── helpers ───────────────────────────────────────────────────────────────────
 const PALETTE = [
@@ -53,9 +54,9 @@ const MD = {
 function DateSeparator({ ts }) {
   return (
     <div className="flex items-center gap-3 my-5">
-      <div className="flex-1 h-px bg-zinc-700/60" />
+      <div className="flex-1 h-px bg-[var(--border-light)]" />
       <span className="text-xs text-[var(--text-muted)] font-medium">{dayLabel(ts)}</span>
-      <div className="flex-1 h-px bg-zinc-700/60" />
+      <div className="flex-1 h-px bg-[var(--border-light)]" />
     </div>
   )
 }
@@ -102,10 +103,8 @@ function AgentMessage({ msg, showHeader, onViewPlan }) {
   const parsed = parseMsgContent(msg.content)
 
   const avatar = (
-    <div className="w-8 h-8 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center flex-shrink-0 shadow-md">
-      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M12 2a2 2 0 012 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 017 7H3a7 7 0 017-7h1V5.73A2 2 0 0112 2z"/>
-      </svg>
+    <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center flex-shrink-0 shadow-md overflow-hidden">
+      <Logo size={26} />
     </div>
   )
   const placeholder = <div className="w-8 flex-shrink-0" />
@@ -190,6 +189,7 @@ function UserMessage({ msg, showHeader }) {
 export default function TripChatArea({ trip, messages = [], steps = [], members = [] }) {
   const [activeTab, setActiveTab] = useState('steps')
   const [tripPlan, setTripPlan] = useState(null)
+  const [panelExpanded, setPanelExpanded] = useState(false)
   const bottomRef = useRef(null)
 
   // Extract latest structured plan from messages
@@ -256,10 +256,8 @@ export default function TripChatArea({ trip, messages = [], steps = [], members 
                 {initial(m.email, m.name)}
               </div>
             ))}
-            <div className="w-7 h-7 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 border-2 border-[var(--bg-header)] flex items-center justify-center" title="Raahi AI">
-              <svg className="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2a2 2 0 012 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 017 7H3a7 7 0 017-7h1V5.73A2 2 0 0112 2z"/>
-              </svg>
+            <div className="w-7 h-7 rounded-full bg-white border-2 border-[var(--bg-header)] flex items-center justify-center overflow-hidden" title="Raahi AI">
+              <Logo size={22} />
             </div>
           </div>
         </div>
@@ -300,8 +298,8 @@ export default function TripChatArea({ trip, messages = [], steps = [], members 
               placeholder="Demo mode — read only"
               className="flex-1 bg-transparent text-[var(--text-muted)] placeholder-[var(--text-faint)] text-sm focus:outline-none cursor-not-allowed"
             />
-            <div className="flex-shrink-0 w-8 h-8 bg-zinc-700 rounded-full flex items-center justify-center cursor-not-allowed">
-              <svg className="w-3.5 h-3.5 text-zinc-500" fill="currentColor" viewBox="0 0 24 24">
+            <div className="flex-shrink-0 w-8 h-8 bg-[var(--bg-active)] rounded-full flex items-center justify-center cursor-not-allowed">
+              <svg className="w-3.5 h-3.5 text-[var(--text-muted)]" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
               </svg>
             </div>
@@ -311,26 +309,45 @@ export default function TripChatArea({ trip, messages = [], steps = [], members 
       </div>
 
       {/* ── Right panel ──────────────────────────────────────────────────────── */}
-      <div className="w-[300px] flex-shrink-0 h-full flex flex-col border-l border-zinc-800 overflow-hidden">
+      <div
+        className="flex-shrink-0 h-full flex flex-col border-l border-[var(--border)] overflow-hidden transition-[width] duration-300 ease-in-out"
+        style={{ width: panelExpanded ? '560px' : '300px' }}
+      >
         {/* Tab bar */}
-        <div className="flex border-b border-zinc-800 flex-shrink-0 bg-zinc-950">
-          {[
-            { key: 'steps', label: 'Steps' },
-            { key: 'plan',  label: 'Trip Plan' },
-          ].map(({ key, label }) => (
-            <button
-              key={key}
-              onClick={() => setActiveTab(key)}
-              className={`flex-1 py-3 text-sm font-medium transition-colors ${
-                activeTab === key ? 'text-white border-b-2 border-white' : 'text-zinc-500 hover:text-zinc-300'
-              }`}
+        <div className="flex items-center border-b border-[var(--border)] flex-shrink-0" style={{ background: 'var(--bg-sidebar)' }}>
+          <div className="flex flex-1">
+            {[
+              { key: 'steps', label: 'Steps' },
+              { key: 'plan',  label: 'Trip Plan' },
+            ].map(({ key, label }) => (
+              <button
+                key={key}
+                onClick={() => setActiveTab(key)}
+                className={`flex-1 py-3 text-sm font-medium transition-colors ${
+                  activeTab === key
+                    ? 'text-[var(--text-primary)] border-b-2 border-[var(--text-primary)]'
+                    : 'text-[var(--text-muted)] hover:text-[var(--text-secondary)]'
+                }`}
+              >
+                {label}
+                {key === 'plan' && tripPlan && (
+                  <span className="ml-1.5 w-1.5 h-1.5 rounded-full bg-orange-400 inline-block align-middle" />
+                )}
+              </button>
+            ))}
+          </div>
+          <button
+            onClick={() => setPanelExpanded(v => !v)}
+            title={panelExpanded ? 'Shrink panel' : 'Expand panel'}
+            className="mr-2 w-7 h-7 flex items-center justify-center rounded-md text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-active)] transition-colors flex-shrink-0"
+          >
+            <svg
+              className={`w-3.5 h-3.5 transition-transform duration-300 ${panelExpanded ? 'rotate-180' : 'rotate-0'}`}
+              fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"
             >
-              {label}
-              {key === 'plan' && tripPlan && (
-                <span className="ml-1.5 w-1.5 h-1.5 rounded-full bg-orange-400 inline-block align-middle" />
-              )}
-            </button>
-          ))}
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
         </div>
 
         <div className="flex-1 overflow-hidden">

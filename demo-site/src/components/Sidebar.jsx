@@ -1,3 +1,5 @@
+import Logo from './Logo'
+
 const PALETTE = [
   'bg-purple-500', 'bg-blue-500', 'bg-emerald-500', 'bg-pink-500',
   'bg-indigo-500', 'bg-teal-500', 'bg-rose-500', 'bg-violet-500',
@@ -9,18 +11,45 @@ function userColor(email) {
 }
 function initial(email, name) { return (name || email || '?')[0].toUpperCase() }
 
-export default function Sidebar({ trip, members = [] }) {
+const THEMES = [
+  {
+    key: 'light',
+    label: 'Light',
+    icon: (
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="5"/><path strokeLinecap="round" d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+      </svg>
+    ),
+  },
+  {
+    key: 'system',
+    label: 'System',
+    icon: (
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <rect x="2" y="3" width="20" height="14" rx="2"/><path strokeLinecap="round" d="M8 21h8M12 17v4"/>
+      </svg>
+    ),
+  },
+  {
+    key: 'dark',
+    label: 'Dark',
+    icon: (
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+      </svg>
+    ),
+  },
+]
+
+export default function Sidebar({ trip, members = [], theme, setTheme, onSignOut }) {
+
   return (
     <aside className="w-72 flex-shrink-0 flex flex-col h-full" style={{ background: 'var(--bg-sidebar)' }}>
 
       {/* Logo */}
       <div className="px-4 pt-5 pb-3 flex-shrink-0">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
-            <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2a2 2 0 012 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 017 7H3a7 7 0 017-7h1V5.73A2 2 0 0112 2z"/>
-            </svg>
-          </div>
+          <Logo size={32} />
           <span className="text-[var(--text-primary)] font-bold text-base">Raahi AI</span>
           <span className="ml-auto text-xs bg-orange-500/20 text-orange-400 border border-orange-500/30 rounded-full px-2 py-0.5 font-medium">Demo</span>
         </div>
@@ -62,11 +91,7 @@ export default function Sidebar({ trip, members = [] }) {
             ))}
             {/* AI member */}
             <div className="flex items-center gap-2">
-              <div className="w-7 h-7 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center flex-shrink-0">
-                <svg className="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2a2 2 0 012 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 017 7H3a7 7 0 017-7h1V5.73A2 2 0 0112 2z"/>
-                </svg>
-              </div>
+              <Logo size={28} className="flex-shrink-0" />
               <div className="min-w-0">
                 <p className="text-xs text-[var(--text-secondary)] truncate">Raahi AI</p>
                 <p className="text-[10px] text-orange-400 truncate">AI Assistant</p>
@@ -79,13 +104,35 @@ export default function Sidebar({ trip, members = [] }) {
       <div className="flex-1" />
 
       {/* Footer */}
-      <div className="px-4 py-4 border-t border-[var(--border)] flex-shrink-0">
-        <div className="flex items-center gap-2 px-3 py-2 rounded-lg text-[var(--text-faint)] text-sm cursor-not-allowed select-none">
+      <div className="px-4 py-4 border-t border-[var(--border)] flex-shrink-0 space-y-2">
+        {/* Theme toggle */}
+        <div className="flex items-center gap-1 p-1 rounded-lg bg-[var(--bg-card)]">
+          {THEMES.map(({ key, label, icon }) => (
+            <button
+              key={key}
+              title={label}
+              onClick={() => setTheme(key)}
+              className={`flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-md text-xs font-medium transition-colors ${
+                theme === key
+                  ? 'bg-[var(--bg-active)] text-[var(--text-primary)]'
+                  : 'text-[var(--text-faint)] hover:text-[var(--text-muted)]'
+              }`}
+            >
+              {icon}
+              <span>{label}</span>
+            </button>
+          ))}
+        </div>
+
+        <button
+          onClick={onSignOut}
+          className="flex items-center gap-2 px-3 py-2 rounded-lg text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-active)] text-sm transition-colors w-full"
+        >
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v1" />
           </svg>
-          Sign out (demo)
-        </div>
+          Sign out
+        </button>
       </div>
     </aside>
   )
